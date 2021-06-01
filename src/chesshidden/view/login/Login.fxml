@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chesshidden.view.login.LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="265.0" layoutY="100.0" minWidth="300.0" prefWidth="300.0" text="UserName" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="190.0" minWidth="300.0" prefWidth="300.0" text="Passoword" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="365.0" prefHeight="21.0" prefWidth="70.0" text="Online" />
+      <Button layoutX="150.0" layoutY="281.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" text="Login" AnchorPane.leftAnchor="150.0" />
+      <TextField layoutX="189.0" layoutY="138.0" minWidth="300.0" prefWidth="300.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <TextField layoutX="189.0" layoutY="231.0" minWidth="300.0" prefWidth="300.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Hyperlink alignment="CENTER" contentDisplay="CENTER" layoutX="264.0" layoutY="282.0" prefHeight="29.0" prefWidth="183.0" text="Signup" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
