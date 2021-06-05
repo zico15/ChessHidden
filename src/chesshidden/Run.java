@@ -25,9 +25,9 @@ public class Run extends Application {
         
         Parent root;
         try {
-            root = FXMLLoader.load(getClass().getResource("view/main/MainView.fxml"));
+            root = FXMLLoader.load(getClass().getResource("view/chess/Chess.fxml"));
             Scene scene = new Scene(root, 300, 250);        
-            primaryStage.setTitle("Hello World!");
+            primaryStage.setTitle("ChessHidden");
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch (IOException ex) {
